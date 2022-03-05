@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.mainWrapper {
+    display: flex;
+    margin: 20px 0px 0px 10px;
+    padding: 0px;
+}
+
+.mainWrapperRight {
+    width: 500px;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.mainWrapperRight img {
+    width: 500px;
+    height: 700px;
+    float: left;
+    margin: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.img {
+    width: 2000px;
+    margin-left: 0px;
+}
+
+.trans {
+    transition: margin-left ease-in 0.2s;
+}
+
+.mainWrapperLeft {
+    width: 600px;
+    height: 700px;
+    margin: 0px;
+    padding: 30px 0px 0px 30px;
+    border-radius: 0px 20px 20px 0px;
+    font-family: 'Jua';
+}
+
+.mainWrapperLeft h2{
+    font-size: 40px;
+}
+
+.mainWrapperLeft p{
+    font-size: 30px;
+    line-height: 70px;
+}
