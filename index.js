@@ -9,7 +9,7 @@ function clickHandler() {
     this.classList.add('active')
     curBtn = this
     let src = curBtn.textContent.toLowerCase()
-    frame.setAttribute('src',`/새소개/세부/${src}.html`
+    frame.setAttribute('src',`/profile/${src}.html`
     )
 }
 
